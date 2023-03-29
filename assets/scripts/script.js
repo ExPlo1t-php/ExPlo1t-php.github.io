@@ -3,7 +3,10 @@
 $(function () {
     $(document).scroll(function () {
       var $nav = $("nav");
-      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      var $navLinks = $(".navlink",  $(this).scrollTop() > $nav.height());
+      $nav.toggleClass('scrolled bg-purple-700', $(this).scrollTop() > $nav.height());
+      $navLinks.toggleClass('text-white');
+      console.log($nav.height());
     });
   });
   
