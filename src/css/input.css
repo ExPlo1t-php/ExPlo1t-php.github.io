@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
+
+
+    @font-face {
+        font-family: 'fira-code';
+        src:
+        local('FiraCode-Regular'),
+        url('../../assets/fonts/FiraCode-Regular.woff2') format('woff2'),
+        url('../../assets/fonts/FiraCode-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+
 @tailwind utilities;

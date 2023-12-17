@@ -10,77 +10,293 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="assets/fontawesome-free-6.1.1-web/css/all.css">
     <script src="node_modules\flowbite\dist\flowbite.min.js"></script>
-    <title>~/ExPlo1t-php/portfolio</title>
+    <title>/home/explo1t-php/portfolio/</title>
 </head>
-<body>
-    <!-- NAVIGATION BAR -->
-    <!-- <nav class="flex fixed w-full top-0">
-        <div class="flex justify-evenly  w-full text-black text-3xl p-5 ">
-            <a href="#about" class="navlink hover:text-purple-700 leading-tight link link-underline link-underline-black text-black">about</a>
-            <a href="#services" class="navlink hover:text-purple-700 leading-tight link link-underline link-underline-black text-black">services</a>
-            <a href="#portfolio" class="navlink hover:text-purple-700 leading-tight link link-underline link-underline-black text-black">portfolio</a>
-            <a href="#contact" class="navlink hover:text-purple-700 leading-tight link link-underline link-underline-black text-black">contact</a>
+
+<body class="bg-zinc-800 ">
+    <!-- MAIN -->
+  <main class="w-full pb-32">
+    <!-- navigation bar -->
+    <nav class="">
+      <div class="max-w-screen-xl flex flex-wrap justify-evenly items-center mx-auto p-4 text-xl">
+        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-base text-gray-500 rounded-lg md:hidden hover:text-orange-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        </button>
+        <div>
+          <div class="w-48 h-px left-[42px] top-0 absolute origin-top-left rotate-90 border border-orange-100"></div>
+          <a href="https://ma.linkedin.com/in/younes-el-abbas-25738818a" target="_blank">
+            <svg class="absolute left-6 top-[13rem]" fill="#F4EFDE" width="30px" height="30px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+              <title>linkedin</title>
+              <path d="M28.778 1.004h-25.56c-0.008-0-0.017-0-0.027-0-1.199 0-2.172 0.964-2.186 2.159v25.672c0.014 1.196 0.987 2.161 2.186 2.161 0.010 0 0.019-0 0.029-0h25.555c0.008 0 0.018 0 0.028 0 1.2 0 2.175-0.963 2.194-2.159l0-0.002v-25.67c-0.019-1.197-0.994-2.161-2.195-2.161-0.010 0-0.019 0-0.029 0h0.001zM9.9 26.562h-4.454v-14.311h4.454zM7.674 10.293c-1.425 0-2.579-1.155-2.579-2.579s1.155-2.579 2.579-2.579c1.424 0 2.579 1.154 2.579 2.578v0c0 0.001 0 0.002 0 0.004 0 1.423-1.154 2.577-2.577 2.577-0.001 0-0.002 0-0.003 0h0zM26.556 26.562h-4.441v-6.959c0-1.66-0.034-3.795-2.314-3.795-2.316 0-2.669 1.806-2.669 3.673v7.082h-4.441v-14.311h4.266v1.951h0.058c0.828-1.395 2.326-2.315 4.039-2.315 0.061 0 0.121 0.001 0.181 0.003l-0.009-0c4.5 0 5.332 2.962 5.332 6.817v7.855z"></path>
+            </svg>
+          </a>
+          <a href="https://github.com/ExPlo1t-php" target="_blank">
+            <svg class="absolute left-6 top-[15rem]" width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>github [#142]</title>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#F4EFDE">
+                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                          <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
+                          </path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+          </a>
+          <a href="mailto:younes.elabbas@outlook.com" target="_blank">
+            <svg class="absolute left-6 top-[17rem]" width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 8L8.44992 11.6333C9.73295 12.4886 10.3745 12.9163 11.0678 13.0825C11.6806 13.2293 12.3194 13.2293 12.9322 13.0825C13.6255 12.9163 14.2671 12.4886 15.5501 11.6333L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z" stroke="#F4EFDE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
         </div>
-    </nav> -->
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul class="font-medium  flex flex-col p-4 md:p-0 mt-4 border md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <a href="#about" class="block  rounded md:bg-transparent leading-tight link link-underline link-underline-black md:p-3  " aria-current="page">
+                <span class="text-orange-400 text-xl font-normal font-[fira-code]">$</span>
+                <span class="text-white text-xl font-normal font-[fira-code]"> Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#about" class="block  rounded md:bg-transparent leading-tight link link-underline link-underline-black md:p-3  " aria-current="page">
+                <span class="text-orange-400 text-xl font-normal font-[fira-code]">$</span>
+                <span class="text-white text-xl font-normal font-[fira-code]"> Projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="#about" class="block  rounded md:bg-transparent leading-tight link link-underline link-underline-black md:p-3  " aria-current="page">
+                <span class="text-orange-400 text-xl font-normal font-[fira-code]">$</span>
+                <span class="text-white text-xl font-normal font-[fira-code]"> About-us</span>
+              </a>
+            </li>
+            <li>
+              <a href="#about" class="block  rounded md:bg-transparent leading-tight link link-underline link-underline-black md:p-3  " aria-current="page">
+                <span class="text-orange-400 text-xl font-normal font-[fira-code]">$</span>
+                <span class="text-white text-xl font-normal font-[fira-code]"> Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   
-<nav class="bg-gray-100 border-gray-200 dark:bg-gray-900 fixed top-0 w-full shadow-lg shadow-gray-200 ">
-    <div class="max-w-screen-xl flex flex-wrap justify-evenly items-center mx-auto p-4 text-xl">
-      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-base text-gray-500 rounded-lg md:hidden hover:text-purple-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-      </button>
-      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  bg-gray-100 md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-          <li>
-            <a href="#about" class="block text-black hover:text-purple-700 hover:bg-gray-200 rounded md:bg-transparent leading-tight link link-underline link-underline-black md:p-3 dark:text-white " aria-current="page">about</a>
-          </li>
-          <li>
-            <a href="#portfolio" class="block text-black hover:text-purple-700 hover:bg-gray-200 rounded md:bg-transparent leading-tight link link-underline link-underline-black md:p-3 dark:text-white" aria-current="page">portfolio</a>
-          </li>
-          <li>
-            <a href="#contact" class="block text-black hover:text-purple-700 hover:bg-gray-200 rounded md:bg-transparent leading-tight link link-underline link-underline-black md:p-3 dark:text-white" aria-current="page">contact</a>
-          </li>
+    <div>
+      <img class="w-full h-[448px] left-0 top-[64px] opacity-100 object-none" src="assets/images/bonefire.jpg" />
+      <div class="w-96 h-56 left-[176px] top-[247px] absolute">
+        <div class="w-96 left-0 top-0 absolute text-orange-400 text-3xl font-semibold font-[fira-code]">Hello World!</div>
+        <div class="w-96 left-0 top-[116px] absolute text-gray-400 text-base font-normal font-[fira-code] leading-normal">A jr SOC analyst, who’s also a web developer. Yes!</div>
+        <a href="mailto:younes.elabbas@outlook.com" class="w-32 h-9 left-[10px] top-[180px] absolute border border-orange-400 justify-center items-center gap-2.5 inline-flex">
+          <div class="text-orange-100 text-base font-medium font-[fira-code]">Contact me</div>
+        </a>
+        <ul class="left-[2px] top-[50px] absolute"><span class="text-orange-100 text-base font-medium font-[fira-code]">The name is Younes, <br/> </span>
+          <li><span class="text-orange-400 text-base font-medium font-[fira-code]">#</span><span class="text-orange-100 text-base font-medium font-[fira-code]"> A jr. SOC analyst<br/></span></li>
+          <li><span class="text-orange-400 text-base font-medium font-[fira-code]"> #</span><span class="text-orange-100 text-base font-medium font-[fira-code]"> A jr. FullStack web developer</span></li>
         </ul>
       </div>
     </div>
-  </nav>
-  
-    <!-- MAIN -->
-    <main class="w-full mx-20 mt-32">
-        <div class="container">
-            <div class="mb-24">
-                <h1 class="text-violet-800 text-md font-bold text-2xl">Hello,</h1>
-                <p class="text-gray-800 lg:w-1/2">  My name is Younes El Abbas, I'm currently studying in my first year of IT infrastructure at OFPPT ISMONTIC in Tangier. My passion lies in cybersecurity and IT hardware, particularly in learning how to secure applications and networks from cyber threats. I may be a beginner in CTFs (capture the flags), but I enjoy the challenge and strive to constantly improve my skills.
-
-                    Outside of my academic pursuits, I enjoy playing video games in my free time. I believe that gaming provides not only an entertaining way to unwind, but also helps me to develop critical thinking and problem-solving skills. With my strong interest in technology and cybersecurity, I'm eager to explore the many opportunities that this field has to offer, and I hope to make a positive impact through my work..</p>
-        </div>
-
-        <div class="container" id="about">
-            <div class="mb-24 w-full">
-                <h1 class="text-violet-800 md:text-xl font-bold text-2xl">Contact Me</h1>
-                <p class="my-5 md:text-base sm:text-sm">
-                    I would love to hear from you anytime
-                </p>
-                <div class="social text-gray-800 flex flex-col">
-                    <!-- github -->
-                    <a href="https://www.github.com/ExPlo1t-php" target="_blank" class="hover:text-purple-700 m-1.5 duration-150"><i class="fa-brands fa-github"></i>
-                    <span class="font-semibold">ExPlo1t-php</span>
-                    </a>
-                    <!-- Medium -->
-                    <!-- <a href=""><i class="fa-brands fa-medium  hover:text-purple-700 m-1.5"></i></a> -->
-                    <!-- linkedin -->
-                    <a href="https://www.linkedin.com/in/younes-el-abbas-25738818a/" target="_blank" class="hover:text-purple-700 m-1.5 duration-150 "><i class="fa-brands fa-linkedin"></i>
-                    <span class="font-semibold">Younes El Abbas</span>
-                    </a>
-                    <a href="mailto:younes_tm@outlook.com" class="hover:text-purple-700 m-1.5 duration-150 "><i class="fa-solid fa-envelope"></i>
-                    <span class="font-semibold">Younes.elabbas@outlook.com</span>
-                    </a>
-                </div>
-
+    <!-- quote panel -->
+    <div class="quote w-full flex justify-center mb-10">
+      <div>
+        <blockquote class="font-[fira-code] text-2xl">
+          The quieter you become, the more you are able to hear.
+        </blockquote>
+        <cite>
+         <span class="arabic-text">جلال الدين الرومي</span><span> - Rumi</span>
+        </cite>
+      </div>
+    </div>
+    <!-- projects panel -->
+    <!-- project section title -->
+    <div class=" justify-center items-center gap-4 inline-flex w-full">
+      <div class="flex  ">
+        <div class="text-orange-400 text-3xl font-medium ">#</div>
+        <div class="text-orange-100 text-3xl font-medium "> projects</div>
+        <div class="w-[10rem] 2xl:w-[80rem] xl:w-[60rem] lg:w-[47rem] md:w-[40rem] sm:w-[25rem] h-px mx-10 self-center border border-orange-100"></div>
+      </div>
+    </div>
+    <!-- projects content -->
+    <div class="h-fit my-16 flex justify-evenly">
+        <div class="h-fit w-[20rem] border border-gray-400 flex-col justify-start items-start inline-flex">
+          <img class="w-80 h-52 border-b border-gray-400" src="./assets/images/PO.png" />
+          <div class="self-stretch p-2 justify-start items-start gap-2 inline-flex">
+            <div class="text-gray-400 text-base font-normal ">HTML</div>
+            <div class="text-gray-400 text-base font-normal ">VueJS</div>
+            <div class="text-gray-400 text-base font-normal ">Laravel</div>
+            <div class="text-gray-400 text-base font-normal ">Tailwind CSS</div>
+          </div>
+          <div class="self-stretch p-2 justify-start items-start gap-2 inline-flex">
+            <div class="text-gray-400 text-base font-normal ">Inertia</div>
+          </div>
+          <div class="self-stretch p-4 border-t border-gray-400 flex-col justify-start items-start gap-4 flex">
+            <div class="self-stretch text-orange-100 text-2xl font-medium ">Planner</div>
+            <div class="self-stretch text-gray-400 text-base font-normal ">Employees Manager/Planner</div>
+            <div class="justify-start items-start gap-4 inline-flex">
+              <div class="px-4 py-2 border border-orange-400 justify-start items-start gap-2.5 flex">
+                <div class="text-orange-100 text-base font-medium ">Live</div>
+              </div>
             </div>
+          </div>
         </div>
-
-       
+        <div class="h-fit w-[20rem] border border-gray-400 flex-col justify-start items-start inline-flex">
+          <img class="w-80 h-52 border-b border-gray-400" src="./assets/images/VRC.png" />
+          <div class="self-stretch p-2 justify-start items-start gap-2 inline-flex">
+            <div class="text-gray-400 text-base font-normal ">Laravel</div>
+            <div class="text-gray-400 text-base font-normal ">HTML</div>
+            <div class="text-gray-400 text-base font-normal ">Tailwind CSS</div>
+            <div class="text-gray-400 text-base font-normal ">JQuery</div>
+          </div>
+          <div class="self-stretch p-4 border-t border-gray-400 flex-col justify-start items-start gap-4 flex">
+            <div class="self-stretch text-orange-100 text-2xl font-medium ">Layout</div>
+            <div class=" text-gray-400 text-base font-normal">A Web interface that displays machines layout and their status by pinging on their IP addresses</div>
+            <div class="justify-start items-start gap-4 inline-flex">
+              <div class="px-4 py-2 border border-orange-400 justify-start items-start gap-2.5 flex">
+                <div class="text-orange-100 text-base font-medium ">Live</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="h-fit w-[20rem] border border-gray-400 flex-col justify-start items-start inline-flex">
+          <img class="w-80 h-52 border-b border-gray-400" src="./assets/images/python.png" />
+          <div class="self-stretch p-2 justify-start items-start gap-2 inline-flex">
+            <div class="text-gray-400 text-base font-normal ">Python 3</div>
+          </div>
+          <div class="self-stretch p-4 border-t border-gray-400 flex-col justify-start items-start gap-4 flex">
+            <div class="self-stretch text-orange-100 text-2xl font-medium font-['Fira Code']">Ping and store</div>
+            <div class="self-stretch text-gray-400 text-base font-normal font-['Fira Code']">A python script that fetches IP addresses from database, then pings on them and inserts their status in the database</div>
+            <div class="justify-start items-start gap-4 inline-flex">
+              <div class="px-4 py-2 border border-orange-400 justify-start items-start gap-2.5 flex">
+                <div class="text-orange-100 text-base font-medium ">Live</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Skills panel -->
+    <!-- skill section title -->
+    <div class=" justify-center items-center gap-4 inline-flex w-full">
+      <div class="flex  ">
+        <div class="text-orange-400 text-3xl font-medium ">#</div>
+        <div class="text-orange-100 text-3xl font-medium "> skills</div>
+        <div class="w-[10rem] 2xl:w-[80rem] xl:w-[60rem] lg:w-[47rem] md:w-[40rem] sm:w-[25rem] h-px mx-10 self-center border border-orange-100"></div>
+      </div>
+    </div>
+    <!-- skills content -->
+    <div class="flex m-10 w-full ">
+      <!-- vectors -->
+      <div class=" w-1/2 h-fit relative  flex justify-around  items-center">
+        <div>
+          <div class="relative top-[7rem] w-fit">
+            <img src="/assets/images/dots.svg" alt="dots1">
+          </div>
+          <div class="relative top-[-1rem] left-[17rem] w-fit">
+            <img src="/assets/images/gray rectangle.svg" alt="grayrect">
+          </div>
+          <div class="relative top-[4rem] left-[15rem]   w-fit">
+            <img src="/assets/images/dots.svg" alt="dots2">
+          </div>
+          <div class="relative top-4 left-4 w-fit">
+            <img src="/assets/images/orange rectangles.svg" alt="orangerect">
+          </div>
+        </div>
+      </div>
+      <!-- container -->
+      <div  class="grid grid-cols-3 gap-x-10 gap-y-3 w-2/3">
+        <div class="border border-gray-400 h-fit w-56">
+          <div class="px-5 py-3  text-orange-100 border-b border-gray-400 flex justify-center">
+            <span>Languages</span>
+          </div>
+          <div class="px-4  py-2  text-gray-400 ">
+            <span>php,</span>
+            <span>python,</span>
+            <span>Javascript</span>
+          </div>
+        </div>
+        <div class="border border-gray-400 h-fit w-56">
+          <div class="px-5 py-3  text-orange-100 border-b border-gray-400 flex justify-center">
+            <span>General Tools</span>
+          </div>
+          <div class="px-4  py-2  text-gray-400 ">
+            <span>VSCode,</span>
+            <span>Linux,</span>
+            <span>Figma,</span>
+            <span>Git,</span>
+            <span>Powershell,</span>
+            <span>Active Directory</span>
+          </div>
+        </div>
+        <div class="border border-gray-400 h-fit w-56">
+          <div class="px-5 py-3  text-orange-100 border-b border-gray-400 flex justify-center">
+            <span>Frameworks</span>
+          </div>
+          <div class="px-4  py-2  text-gray-400 ">
+            <span>Vue3,</span>
+            <span>Laravel,</span>
+            <span>Tailwind CSS,</span>
+            <span>InertiaJS</span>
+          </div>
+        </div>
+        <div class="border border-gray-400 h-fit w-56">
+          <div class="px-5 py-3  text-orange-100 border-b border-gray-400 flex justify-center">
+            <span>Other</span>
+          </div>
+          <div class="px-4  py-2  text-gray-400 ">
+            <span>HTML,</span>
+            <span>CSS</span>
+          </div>
+        </div>
+        <div class="border border-gray-400 h-fit w-56">
+          <div class="px-5 py-3  text-orange-100 border-b border-gray-400 flex justify-center">
+            <span>ExPLoit1tion Tools</span>
+          </div>
+          <div class="px-4  py-2  text-gray-400 ">
+            <span>Hydra,</span>
+            <span>Metasploit Framework,</span>
+            <span>Gobuster,</span>
+            <span>Exploit-db,</span>
+            <span>burpsuite</span>
+          </div>
+        </div>
+        <div class="border border-gray-400 h-fit w-56">
+          <div class="px-5 py-3  text-orange-100 border-b border-gray-400 flex justify-center">
+            <span>Reconnaissance Tools</span>
+          </div>
+          <div class="px-4  py-2  text-gray-400 ">
+            <span>NMAP,</span>
+            <span>Maltego,</span>
+            <span>Nessus,</span>
+            <span>Shodan,</span>
+            <span>recon-ng</span>
+          </div>
+        </div>
+        <div class="border border-gray-400 h-fit w-56  col-start-3">
+          <div class="px-5 py-3  text-orange-100 border-b border-gray-400 flex justify-center">
+            <span>Attacks analysis Tools</span>
+          </div>
+          <div class="px-4  py-2  text-gray-400 ">
+            <span>Mitre ATT&CK,</span>
+            <span>Mitre DeTT&CT,</span>
+            <span>Mitre Caldera,</span>
+            <span>Velociraptor,</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about-me panel -->
+    <!-- about-me section title -->
+    <div class=" justify-center items-center gap-4 inline-flex w-full">
+      <div class="flex  ">
+        <div class="text-orange-400 text-3xl font-medium ">#</div>
+        <div class="text-orange-100 text-3xl font-medium "> about-me</div>
+        <div class="w-[10rem] 2xl:w-[80rem] xl:w-[60rem] lg:w-[47rem] md:w-[40rem] sm:w-[25rem] h-px mx-10 self-center border border-orange-100"></div>
+      </div>
+    </div>
+    <!-- about-me content -->
+    <div class="h-[40rem] bg-no-repeat bg-cover"
+        style="background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('assets/images/firelink.jpg')">
+        <div class="w-1/4 ml-56 text-orange-100 text-base font-normal leading-relaxed">Hello I’m Younes!<br/><br/> I'm currently studying in my second year of IT infrastructure, cyber security option at OFPPT ISMONTIC in Tangier.<br/><br/> My passion lies in cybersecurity, particularly in learning how to detect cyber attacks/threats and securing applications and networks.<br/><br/> I am also a big fan (a beginner as well) in CTFs (capture the flag), but I enjoy the challenge and strive to constantly improve my skills.<br/><br/> Outside of my academic pursuits, I enjoy playing video games in my free time. I believe that gaming provides not only an entertaining way to unwind, but also helps me to develop critical thinking and problem-solving skills.<br/><br/> With my strong interest in technology and cybersecurity, I'm eager to explore the many opportunities that this field has to offer, and I hope to make a positive impact through my work..</div>
+        <!-- <img class="w-full object-none absolute" src="assets/images/firelink.jpg" /> -->
+    </div>
     </main>
     <script src="src/js/jquery-3.6.0.min.js"></script>
     <script src="src/js/script.js"></script>
