@@ -1,6 +1,6 @@
 <template>
     <div class="lg:h-[30rem] md:h-[35rem] sm:h-[35rem] bg-no-repeat bg-cover p-10 px-20 placeholder-opacity-100 text-orange-100 text-xs sm:text-sm md:text-base font-normal leading-relaxed"
-    style="background-position:center; background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('/src/assets/images/firelink.jpg')">
+    style="background-position:center; background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('/assets/images/firelink.jpg')">
         <p>Hello I’m Younes!<br/></p>
         <p>
         <br/> I'm currently studying in my second year of IT infrastructure, cyber security option at OFPPT ISMONTIC in Tangier.<br/>

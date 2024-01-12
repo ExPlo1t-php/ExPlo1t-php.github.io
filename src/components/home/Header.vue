@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="lg:h-[20rem] md:h-[25rem] sm:h-[20rem] bg-no-repeat bg-cover p-20 "
-            style="background-position:center; background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('/src/assets/images/bonefire.jpg')">
+            style="background-position:center; background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('/assets/images/bonefire.jpg')">
             <div>
             <div class=" text-orange-400 text-3xl font-semibold " id="typewriter">Hello World!</div>
             <ul><span class="text-orange-100 text-base font-medium ">The name is Younes, <br/> </span>
