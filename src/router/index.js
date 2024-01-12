@@ -5,7 +5,7 @@ import AboutMeView from '../views/AboutMeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  base: process.env.NODE_ENV === 'production' ? '/explo1t-php.github.io/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/' : '/',
   routes: [
     {
       path: '/',

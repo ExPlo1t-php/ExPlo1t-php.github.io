@@ -82,72 +82,72 @@ export default {
           name: 'Planner',
           technologies: ['HTMl', 'Laravel', 'VueJS', 'Tailwind CSS', 'Inertia'],
           description: 'Employees Manager/Planner',
-          image: '/src/assets/images/PO.png'
+          image: '/assets/images/PO.png'
         },
         {
           name: 'Layout',
           technologies: ['HTMl', 'Laravel', 'JQuery', 'Tailwind CSS', 'JQuery UI Draggable'],
           description: 'A Web interface that displays machines layout and their status by pinging on their IP addresses',
-          image: '/src/assets/images/VRC.png'
+          image: '/assets/images/VRC.png'
         },
         {
           name: 'Ping and store',
           technologies: ['Python 3'],
           description: 'A python script that fetches IP addresses from database, then pings on them and inserts their status in the database',
-          image: '/src/assets/images/python.png'
+          image: '/assets/images/python.png'
         },
       ],
       skills: [
         {
           name: "Languages",
           skills: [
-            { name: "JavaScript", image: "/src/assets/icons/javascript-plain.svg", alt:"JS" },
-            { name: "php", image: "/src/assets/icons/php-original.svg", alt:"php" },
-            { name: "Python", image: "/src/assets/icons/python-original.svg", alt:"py" },
+            { name: "JavaScript", image: "/assets/icons/javascript-plain.svg", alt:"JS" },
+            { name: "php", image: "/assets/icons/php-original.svg", alt:"php" },
+            { name: "Python", image: "/assets/icons/python-original.svg", alt:"py" },
           ],
         },
         {
           name: "Frameworks",
           skills: [
-            { name: "Tailwind CSS", image: "/src/assets/icons/tailwindcss-plain.svg", alt:"twcss" },
-            { name: "Laravel", image: "/src/assets/icons/laravel-plain.svg", alt:"laravel" },
-            { name: "Vuejs", image: "/src/assets/icons/vuejs-original.svg", alt:"vuejs" },
-            { name: "jQuery", image: "/src/assets/icons/jquery-original-wordmark.svg", alt:"jq" },
+            { name: "Tailwind CSS", image: "/assets/icons/tailwindcss-plain.svg", alt:"twcss" },
+            { name: "Laravel", image: "/assets/icons/laravel-plain.svg", alt:"laravel" },
+            { name: "Vuejs", image: "/assets/icons/vuejs-original.svg", alt:"vuejs" },
+            { name: "jQuery", image: "/assets/icons/jquery-original-wordmark.svg", alt:"jq" },
           ],
         },
         {
           name: ["Web Technologies","Databases"],
           skills: [
-            { name: "HTML 5", image: "/src/assets/icons/html5-original.svg", alt:"html" },
-            { name: "CSS 3", image: "/src/assets/icons/css3-original.svg", alt:"css" },
-            { name: "MySQL", image: "/src/assets/icons/mysql-original-wordmark.svg", alt:"mysqueal" },
+            { name: "HTML 5", image: "/assets/icons/html5-original.svg", alt:"html" },
+            { name: "CSS 3", image: "/assets/icons/css3-original.svg", alt:"css" },
+            { name: "MySQL", image: "/assets/icons/mysql-original-wordmark.svg", alt:"mysqueal" },
           ],
         },
         {
           name: "Operating Systems",
           skills: [
-            { name: "Ubuntu", image: "/src/assets/icons/ubuntu-plain.svg", alt:"Uwuntu" },
-            { name: "Kali", image: "/src/assets/icons/kali-1.svg", alt:"thedragent" },
-            { name: "Windows Server", image: "/src/assets/icons/windows-server-2.svg", alt:"winserv" },
+            { name: "Ubuntu", image: "/assets/icons/ubuntu-plain.svg", alt:"Uwuntu" },
+            { name: "Kali", image: "/assets/icons/kali-1.svg", alt:"thedragent" },
+            { name: "Windows Server", image: "/assets/icons/windows-server-2.svg", alt:"winserv" },
           ],
         },
         {
           name: "Tools",
           skills: [
-            { name: "git", image: "/src/assets/icons/git-original.svg", alt:"verzencontrol" },
-            { name: "github", image: "/src/assets/icons/github.svg", alt:"verzencontrol:theSite" },
-            { name: "Figma", image: "/src/assets/icons/figma-original.svg", alt:"dizzyner" },
-            { name: "Composer", image: "/src/assets/icons/composer-original.svg", alt:"\\|/" },
-            { name: "npm", image: "/src/assets/icons/npm-original-wordmark.svg", alt:"apt but for js" },
-            { name: "ssh", image: "/src/assets/icons/ssh-original-wordmark.svg", alt:"telnet but more secure" },
+            { name: "git", image: "/assets/icons/git-original.svg", alt:"verzencontrol" },
+            { name: "github", image: "/assets/icons/github.svg", alt:"verzencontrol:theSite" },
+            { name: "Figma", image: "/assets/icons/figma-original.svg", alt:"dizzyner" },
+            { name: "Composer", image: "/assets/icons/composer-original.svg", alt:"\\|/" },
+            { name: "npm", image: "/assets/icons/npm-original-wordmark.svg", alt:"apt but for js" },
+            { name: "ssh", image: "/assets/icons/ssh-original-wordmark.svg", alt:"telnet but more secure" },
           ],
         },
         {
           name: "Misc",
           skills: [
-            { name: "NMAP", image: "/src/assets/icons/nmap-logo.svg", alt:"portscanner" },
-            { name: "VMware", image: "/src/assets/icons/vmware.svg", alt:"virtualmachineorsmtg" },
-            { name: "burpsuite", image: "/src/assets/icons/icons8-burp-suite.svg", alt:"burrp" },
+            { name: "NMAP", image: "/assets/icons/nmap-logo.svg", alt:"portscanner" },
+            { name: "VMware", image: "/assets/icons/vmware.svg", alt:"virtualmachineorsmtg" },
+            { name: "burpsuite", image: "/assets/icons/icons8-burp-suite.svg", alt:"burrp" },
           ],
         },
       ]
